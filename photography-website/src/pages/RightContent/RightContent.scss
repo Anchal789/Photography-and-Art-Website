@@ -1,0 +1,40 @@
+.rightContent {
+    display: flex;
+    margin: 10px;
+    flex: 6;
+    -webkit-box-shadow: 0px 0px 25px -10px Orgba(0, 0, 0, 0.38);
+    -moz—box-shadow: 0px 0px 25px -10px Cirgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    border-radius: 20px;
+    background-color: lightgray;
+    color: white;
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 20px;
+
+        .post {
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(234, 232, 232);
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 30px;
+            img {
+                width: 100%;
+                object-fit: cover;
+                margin: 5px 5px 40px 5px;
+                border-radius: 30px;
+            }
+
+            span {
+                color: black;
+                font-weight: 800;
+                font-size: 18px;
+            }
+        }
+
+    }
+}
