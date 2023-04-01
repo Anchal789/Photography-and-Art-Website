@@ -31,7 +31,7 @@ function App() {
           element : <Animal/>
         },
         {
-          path : "/grayscale]",
+          path : "/grayscale",
           element : <BlackAndWhite/>
         },
         {
