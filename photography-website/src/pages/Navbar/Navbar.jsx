@@ -7,14 +7,19 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import DriveFolderUploadIcon from "@mui/icons-material/DriveFolderUpload";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="left">
-        <span>PhotoGenic</span>
+        <Link to={"/"} style={{textDecoration : "none"}}>
+          <span>PhotoGenic</span>
+        </Link>
+        <Link to={"/"} style={{textDecoration : "none"}}>
+          <HomeOutlinedIcon />
+        </Link>
 
-        <HomeOutlinedIcon />
         <GridViewOutlinedIcon />
         <div className="search">
           <SearchOutlinedIcon />
@@ -22,8 +27,12 @@ const Navbar = () => {
         </div>
         <div className="upload">
           <label htmlFor="uploadBtn">Upload Your Image Here</label>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfurNSA-9cZ6RF4eetwWMOkIAWf3e7sGtX4Pc9ZPfsiV7ZQlg/viewform" target="_blank" id="uploadBtn">
-            <DriveFolderUploadIcon/>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfurNSA-9cZ6RF4eetwWMOkIAWf3e7sGtX4Pc9ZPfsiV7ZQlg/viewform"
+            target="_blank"
+            id="uploadBtn"
+          >
+            <DriveFolderUploadIcon />
           </a>
         </div>
       </div>
