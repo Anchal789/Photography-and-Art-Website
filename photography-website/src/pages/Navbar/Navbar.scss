@@ -17,7 +17,7 @@
 
         span {
             font-weight: bold;
-            font-size: 20px;
+            font-size: 30px;
             color: red;
         }
 
@@ -33,6 +33,32 @@
                 border: none;
                 width: 500px;
                 background-color: transparent;
+            }
+        }
+
+        .upload{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid lightgray;
+            background-color: rgb(237, 84, 84);
+            gap: 20px;
+            color: white;
+            flex: 1;
+            border-radius: 15px;
+            label{
+                padding: 5px 0px 5px 15px;
+                font-weight: bold;
+                font-size: large;
+                text-align: center;
+            }
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                text-decoration: none;
+                color: white;
             }
         }
     }
