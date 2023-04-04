@@ -79,7 +79,6 @@ const LeftContent = () => {
           </div>
         </div>
       </div>
-      <RightContent prop={state} />
     </>
   );
 };

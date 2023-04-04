@@ -2334,8 +2334,6 @@ const Animal = () => {
         },
       ];
     
-      
-      
       return (
         <div className="rightContent">
           <div className="container">

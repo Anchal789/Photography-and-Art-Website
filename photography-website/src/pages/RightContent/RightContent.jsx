@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./RightContent.scss";
 
-const RightContent = (prop) => {
+const RightContent = () => {
   return(
-    <></>
+    <>
+    </>
   )
 };
-
 export default RightContent;
